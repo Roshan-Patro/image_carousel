@@ -1,0 +1,24 @@
+.newsCard{
+    background-color: rgba(255,216,93);
+}
+.newsCardEven{
+    background-color: rgb(243, 220, 145);
+}
+.newsCard, .newsCardEven{
+    position: relative;
+    min-width: 300px;
+    width: 250px;
+    height: 370px;
+    text-align: center;
+    margin-right: 30px;
+}
+.newsCard>div:nth-child(1), .newsCardEven>div:nth-child(1){
+    font-size: 0.8em;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
