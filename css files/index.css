@@ -52,3 +52,30 @@
 .newsCard-container::-webkit-scrollbar {
     display: none;
 }
+.newsCard>a, .newsCardEven>a{
+    position: absolute;
+    bottom: 25px;
+    left: 36.5%;
+}
+.pre-btn, .nxt-btn{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid rgba(38,126,107);
+}
+
+.pre-btn:hover, .nxt-btn:hover{
+    cursor: pointer;
+    background-color: rgba(38,126,107);
+}
+#sliderBtnDiv{
+    display: flex;
+    gap:2%;
+    margin-left: 47vw;
+    margin-top: 25px;
+}
+#sliderBtnDiv i{
+    font-size: medium;
+    color: rgba(38,126,107);
+}
