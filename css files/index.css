@@ -34,3 +34,21 @@
 .newsCard>div:nth-child(1)>i, .newsCardEven>div:nth-child(1)>i{
     font-size: 5px;
 }
+.newsCard>div:nth-child(3), .newsCardEven>div:nth-child(3){
+    width: 82%;
+    font-size: 1.5em;
+    margin-left: 8.5%;
+    margin-bottom: 60px;
+    color: rgb(27, 27, 27);
+    font-weight: lighter;
+}
+.newsCard-container {
+    padding: 0 4vw;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+}
+
+.newsCard-container::-webkit-scrollbar {
+    display: none;
+}
